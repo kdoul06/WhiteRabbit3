@@ -17,25 +17,88 @@
         android:id="@+id/textView" />
 
     <Button
-        android:text="Button"
+        android:text="Read"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="96dp"
-        android:id="@+id/writeBtn"
-        android:onClick="onWriteBtnClick"
-        />
+        android:id="@+id/readBtn"
+        android:onClick="onReadBtnClick"
+        android:layout_marginBottom="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/writeBtn"
-        android:layout_alignStart="@+id/writeBtn"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="69dp"
-        android:id="@+id/readBtn"
-        android:onClick="onReadBtnClick"/>
+        android:id="@+id/writePoiBtn"
+        android:onClick="onWritePoiBtnClick"
+        android:text="POI ins"
+        android:layout_marginRight="46dp"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_marginStart="22dp"
+        android:layout_alignBottom="@+id/readBtn"
+        android:layout_toEndOf="@+id/readBtn"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:text="User ins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/writeUserBtn"
+        android:onClick="onWriteUserBtnClick"
+        android:layout_above="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginTop="26dp"
+        android:id="@+id/userEmailTxt"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/writeUserBtn"
+        android:elevation="2dp"
+        android:autoText="false"
+        android:outlineProvider="bounds"
+        android:pointerIcon="none"
+        android:hint="Your email here!"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/userEmailTxt"
+        android:layout_alignStart="@+id/userEmailTxt"
+        android:layout_marginTop="24dp"
+        android:id="@+id/userPassTxt"
+        android:hint="Password"
+        android:imeOptions="actionDone" />
+
+    <TextView
+        android:text="User's email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignBaseline="@+id/userEmailTxt"
+        android:layout_alignBottom="@+id/userEmailTxt"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@+id/userPassTxt"
+        android:layout_alignBottom="@+id/userPassTxt"
+        android:layout_alignEnd="@+id/writePoiBtn" />
 </RelativeLayout>
