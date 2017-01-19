@@ -35,18 +35,6 @@
         android:layout_marginRight="46dp"
         android:layout_above="@+id/editText"
         android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
-        android:id="@+id/editText"
-        android:layout_marginStart="22dp"
-        android:layout_alignBottom="@+id/readBtn"
-        android:layout_toEndOf="@+id/readBtn"
-        android:layout_marginBottom="20dp" />
-
     <Button
         android:text="User ins"
         android:layout_width="wrap_content"
@@ -61,44 +49,45 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:layout_marginTop="26dp"
-        android:id="@+id/userEmailTxt"
-        android:layout_below="@+id/textView"
-        android:layout_alignStart="@+id/writeUserBtn"
-        android:elevation="2dp"
-        android:autoText="false"
-        android:outlineProvider="bounds"
-        android:pointerIcon="none"
-        android:hint="Your email here!"
-        android:imeOptions="actionNext" />
+        android:id="@+id/editText"
+        android:layout_marginStart="22dp"
+        android:layout_alignBottom="@+id/readBtn"
+        android:layout_toEndOf="@+id/readBtn"
+        android:layout_marginBottom="20dp" />
+
+
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
+        android:inputType="numberSigned|numberDecimal"
         android:ems="10"
-        android:layout_below="@+id/userEmailTxt"
-        android:layout_alignStart="@+id/userEmailTxt"
-        android:layout_marginTop="24dp"
-        android:id="@+id/userPassTxt"
-        android:hint="Password"
-        android:imeOptions="actionDone" />
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/readBtn"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lonTxt"
+        android:hint="lontitude" />
 
-    <TextView
-        android:text="User's email"
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:layout_alignBaseline="@+id/userEmailTxt"
-        android:layout_alignBottom="@+id/userEmailTxt"
-        android:layout_alignParentStart="true" />
+        android:inputType="numberSigned|numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/lonTxt"
+        android:layout_alignStart="@+id/lonTxt"
+        android:layout_marginTop="23dp"
+        android:id="@+id/latTxt"
+        android:hint="latitude" />
 
-    <TextView
-        android:text="Password"
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:layout_alignBaseline="@+id/userPassTxt"
-        android:layout_alignBottom="@+id/userPassTxt"
-        android:layout_alignEnd="@+id/writePoiBtn" />
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/latTxt"
+        android:layout_alignStart="@+id/latTxt"
+        android:layout_marginTop="26dp"
+        android:id="@+id/catTxt"
+        android:hint="category" />
+
 </RelativeLayout>

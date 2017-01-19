@@ -7,18 +7,14 @@ package com.example.accel.whiterabbit3.models;
 public class Users {
 
     public String email;
-    public String Surname;
-    public String Name;
-    public String Nickname;
+    public String surname;
+    public String name;
+    public String nickname;
 
     public Users(String email, String surname, String name, String nickname) {
         this.email = email;
-        Surname = surname;
-        Name = name;
-        Nickname = nickname;
+        this.surname = surname;
+        this.name = name;
+        this.nickname = nickname;
     }
-public Users () {
-
-}
-
 }
