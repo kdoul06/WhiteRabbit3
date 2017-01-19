@@ -1,79 +1,35 @@
 {
   "project_info": {
-    "project_number": "1081329957009",
-    "firebase_url": "https://whiterabbit2-e9bf0.firebaseio.com",
-    "project_id": "whiterabbit2-e9bf0",
-    "storage_bucket": "whiterabbit2-e9bf0.appspot.com"
+    "project_number": "817452836679",
+    "firebase_url": "https://eap-gtp61.firebaseio.com",
+    "project_id": "eap-gtp61",
+    "storage_bucket": "eap-gtp61.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1081329957009:android:e05446e8586c696d",
-        "android_client_info": {
-          "package_name": "com.ergasia.omada4.whiterabbit2"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1081329957009-o6hlbps8i1kp5028dk1q6tbkqp315gg1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.ergasia.omada4.whiterabbit2",
-            "certificate_hash": "015A2CB66E4A72343C53EA1B97E78F8D273B0F34"
-          }
-        },
-        {
-          "client_id": "1081329957009-ovvalo36gncr8549vkelal0gjl2t693o.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDD-okkFIjyz-iMkN4QmIg6aSauCjETCfY"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1081329957009-ovvalo36gncr8549vkelal0gjl2t693o.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1081329957009:android:6c18d7b0e146380e",
+        "mobilesdk_app_id": "1:817452836679:android:6c18d7b0e146380e",
         "android_client_info": {
           "package_name": "com.example.accel.whiterabbit3"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1081329957009-dq6hoaup6muje7se4mlcdt59f61593kd.apps.googleusercontent.com",
+          "client_id": "817452836679-tbbhpamniaou3kha1pnga9g47k995hef.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.accel.whiterabbit3",
-            "certificate_hash": "0A344A4D97A3D808C91D83C3B343C631B9CDE0E6"
+            "certificate_hash": "015A2CB66E4A72343C53EA1B97E78F8D273B0F34"
           }
         },
         {
-          "client_id": "1081329957009-ovvalo36gncr8549vkelal0gjl2t693o.apps.googleusercontent.com",
+          "client_id": "817452836679-cpvhi7jh63gq9od2l59g2ea2t0ikar2a.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDD-okkFIjyz-iMkN4QmIg6aSauCjETCfY"
+          "current_key": "AIzaSyDNPy-wDMBhaYjs37pUrOQOh0k5N1xCK_o"
         }
       ],
       "services": {
@@ -84,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "1081329957009-ovvalo36gncr8549vkelal0gjl2t693o.apps.googleusercontent.com",
+              "client_id": "817452836679-cpvhi7jh63gq9od2l59g2ea2t0ikar2a.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
