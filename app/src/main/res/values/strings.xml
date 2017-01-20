@@ -2,6 +2,7 @@
     <string name="app_name">WhiteRabbit3</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_drawer">Left Bar</string>
     <string name="action_settings">Profile</string>
     <string name="title_activity_main2">Main2Activity</string>
 </resources>
